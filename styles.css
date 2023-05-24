@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* styles.css */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #FFFFFF ;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+	
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+	text-align: right;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left:5px;
+	
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.promociones {
+    text-align: center;
+  }
+  
+  .promocion {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 10px;
+  }
+  
+  .promocion-img {
+    width: auto;
+    height: 320px;
+	margin: 5px;  
+  }
+  
+  .descripcion {
+    font-size: 15px; 
+    margin-top: 5px;
+  }
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#home {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#home h2 {
+  color: #333;
+}
+
+#home p {
+  color: #666;
+}
+
+.promociones {
+  margin-top: 30px;
+}
+
+.promociones h3 {
+  color: #333;
+}
+
+.promociones img {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.productos-destacados {
+    text-align: center;
+  }
+  
+  .productos-destacados h3 {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .productos-destacados .producto {
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .productos-destacados .producto img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .productos-destacados .producto h4 {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .productos-destacados .producto p {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .productos-destacados .producto a {
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    background-color: #808080;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+    #footer {
+      background-color: black;
+      color: white;
+      font-size: 12px;
+      padding: 10px 0;
+      width: 100%;
+    }
